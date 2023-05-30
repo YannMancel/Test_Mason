@@ -1,0 +1,33 @@
+
+name: directory_generator
+description: Directory Generator
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  directory_name:
+    type: string
+    description: Directory Name
+    default: unknown
+    prompt: What is the directory name?
+
+  has_logic:
+    type: boolean
+    description: Creation of logic directory
+    default: true
+    prompt: Has it got logic?
+
+  has_view:
+    type: boolean
+    description: Creation of view directory
+    default: true
+    prompt: Has it got view?
+
+  has_model:
+    type: boolean
+    description: Creation of model directory
+    default: true
+    prompt: Has it got model?

@@ -1,0 +1,5 @@
+
+bricks:
+  # Run `mason make directory_generator`
+  directory_generator:
+    path: bricks/directory_generator
